@@ -5,6 +5,7 @@ margin: 0;
 padding: 0;
 box-sizing:border-box
 font-family: "Roboto", sans-serif;
+
 }
 body{
 display: grid;
@@ -12,4 +13,34 @@ place-content: center;
 height: 100vw;
 overflow: hidden;
 background:#00DDFA;
+}
+.leticia{
+    width: 1000px;
+    height:600px;
+}
+.leticia .hard{
+    background: aquamarine;
+    color:black;
+    font-weight: bold;
+    border:none;
+}
+.leticia .hard small{
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.7;
+    font-size: 14px;
+}
+.leticia .page{
+    background: #ebeff7;
+    display: flex;
+    flex-direction: column;
+justify-content:center;
+align-items:center;
+gap: 10px;
+border: 1px solid rgba(0, 0, 0.11);
+}
+.page img{
+    width: 70%;
+    object-fit: cover;
+    margin: auto;
 }
