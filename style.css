@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-margin: 0;
-padding: 0;
-box-sizing:border-box;
-font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
 
 }
 body{
-display: grid;
-place-content: center;
-height: 100vw;
-overflow: hidden;
-background:#00DDFA;
+    display: grid;
+    place-content: center;
+    height: 100vw;
+    overflow: hidden;
+    background:#00DDFA;
 }
 .flipbook{
     width: 1000px;
@@ -34,10 +34,10 @@ background:#00DDFA;
     background: #ebeff7;
     display: flex;
     flex-direction: column;
-justify-content:center;
-align-items:center;
-gap: 10px;
-border: 1px solid rgba(0, 0, 0.11);
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0.11);
 }
 .page img{
     width: 70%;
@@ -45,6 +45,6 @@ border: 1px solid rgba(0, 0, 0.11);
     margin: auto;
 }
 .flipbook .page small{
-font-size: 14px;
-margin-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
