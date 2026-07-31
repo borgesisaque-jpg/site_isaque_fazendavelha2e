@@ -3,7 +3,7 @@
 *{
 margin: 0;
 padding: 0;
-box-sizing:border-box
+box-sizing:border-box;
 font-family: "Roboto", sans-serif;
 
 }
@@ -46,5 +46,5 @@ border: 1px solid rgba(0, 0, 0.11);
 }
 .flipbook .page small{
 font-size: 14px;
-margin-bottom: 10px
+margin-bottom: 10px;
 }
